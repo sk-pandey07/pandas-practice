@@ -27,3 +27,7 @@ print("\nDelhi student:",count_delhi)
 # below 60 marks students
 below_60 = df[df["Marks"] < 60].shape[0]
 print("\nBelow 60 marks students:",below_60)
+
+# top 3 students
+top3_students = df.sort_values(by="Marks" , ascending=False).head(3)
+print("\ntop 3 students:",top3_students)
