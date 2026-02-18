@@ -19,3 +19,11 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
+# count Delhi student
+count_delhi = df[df["City"] == "Delhi"].shape[0]
+print("\nDelhi student:",count_delhi)
+
+# below 60 marks students
+below_60 = df[df["Marks"] < 60].shape[0]
+print("\nBelow 60 marks students:",below_60)
