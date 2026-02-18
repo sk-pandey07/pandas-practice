@@ -31,3 +31,7 @@ print("\nBelow 60 marks students:",below_60)
 # top 3 students
 top3_students = df.sort_values(by="Marks" , ascending=False).head(3)
 print("\ntop 3 students:",top3_students)
+
+# city-wise average
+city_avg = df.groupby("City")["Marks"].mean()
+print("\ncity-wise average:",city_avg)
