@@ -25,3 +25,6 @@ print(df.head(5))
 
 print("\nlast five rows")
 print(df.tail(5))
+
+print("\nDataset info")
+print(df.info())
