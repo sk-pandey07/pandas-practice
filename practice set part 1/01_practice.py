@@ -27,7 +27,14 @@ print("\nlast five rows")
 print(df.tail(5))
 
 print("\nDataset info")
+
+
 print(df.info())
 
 print("\nDescribe dataset")
 print(df.describe())
+
+print("shape:",df.shape)
+
+print("\nprint only Name column data:")
+print(df["Name"])
