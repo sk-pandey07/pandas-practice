@@ -28,3 +28,6 @@ print(df.tail(5))
 
 print("\nDataset info")
 print(df.info())
+
+print("\nDescribe dataset")
+print(df.describe())
