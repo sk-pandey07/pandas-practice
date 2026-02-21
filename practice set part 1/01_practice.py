@@ -55,3 +55,7 @@ print(performance_80)
 print("nfilter IT department Employe:")
 IT_department = df[df["Department"] == "IT"]
 print(IT_department)
+
+print("\nHR department and Salary > 45000")
+subsets = df[(df["Department"] == "HR") & (df["Salary"] > 45000)]
+print(subsets)
