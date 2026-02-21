@@ -7,6 +7,9 @@ data = {
     "Age": [24, 28, 26, 30, 27, 25,
             29, 31, 23, 27,
             32, 26, 28, 29, 24],
+
+    "Department": ["IT","HR","IT","Finance","IT","HR","Finance","IT",
+                   "Marketing","Sales","IT","HR","Finance","Marketing","Operations"],
     
     "Salary": [30000, 45000, 40000, 52000, 38000, 36000,
                47000, 55000, 28000, 42000,
@@ -40,3 +43,7 @@ print("shape:",df.shape)
 
 print("\nprint only Name column data:")
 print(df["Name"])
+
+print("\nsalary > 50000 data")
+columns = df[df["Salary"] > 50000]
+print(columns)
