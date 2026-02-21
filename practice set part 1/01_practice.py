@@ -49,8 +49,8 @@ columns = df[df["Salary"] > 50000]
 print(columns)
 
 print("\nperformence > 80")
-performence_80 = df[df["Performence"] > 80]
-print(performence_80)
+performance_80 = df[df["Performance"] > 80]
+print(performance_80)
 
 print("nfilter IT department Employe:")
 IT_department = df[df["Department"] == "IT"]
