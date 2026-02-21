@@ -47,3 +47,7 @@ print(df["Name"])
 print("\nsalary > 50000 data")
 columns = df[df["Salary"] > 50000]
 print(columns)
+
+print("nfilter IT department Employe:")
+IT_department = df[df["Department"] == "IT"]
+print(IT_department)
