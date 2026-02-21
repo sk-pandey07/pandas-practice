@@ -34,6 +34,8 @@ print(df.info())
 print("\nDescribe dataset")
 print(df.describe())
 
+print("\nName and salary print both")
+print(df[["Name" , "Salary"]])
 print("shape:",df.shape)
 
 print("\nprint only Name column data:")
