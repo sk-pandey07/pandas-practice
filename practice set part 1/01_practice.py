@@ -48,6 +48,10 @@ print("\nsalary > 50000 data")
 columns = df[df["Salary"] > 50000]
 print(columns)
 
+print("\nperformence > 80")
+performence_80 = df[df["Performence"] > 80]
+print(performence_80)
+
 print("nfilter IT department Employe:")
 IT_department = df[df["Department"] == "IT"]
 print(IT_department)
