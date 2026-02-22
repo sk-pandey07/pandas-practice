@@ -32,3 +32,8 @@ sorted_df = df.sort_values(by="Performance", ascending=True)
 
 print("\nPerformance Score Ascending Order:\n")
 print(sorted_df)
+
+# top 3 highest salary
+top3 = df.nlargest(3,"Salary")
+print("\ntop 3 highest salary")
+print(top3)
