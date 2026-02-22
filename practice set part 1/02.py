@@ -26,3 +26,9 @@ sorted_values = df.sort_value(by="Salary", ascending=False)
 
 print("\nSalary Descending Order:\n")
 print(sorted_values)
+
+# Performance_Score ascending order me sort
+sorted_df = df.sort_values(by="Performance", ascending=True)
+
+print("\nPerformance Score Ascending Order:\n")
+print(sorted_df)
