@@ -20,3 +20,9 @@ data = {
 df = pd.DataFrame(data)
 print("\noriginal dataset")
 print(df)
+
+# salary ke basis pe descending sorts
+sorted_values = df.sort_value(by="Salary", ascending=False)
+
+print("\nSalary Descending Order:\n")
+print(sorted_values)
