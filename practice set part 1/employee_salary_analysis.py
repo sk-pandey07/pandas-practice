@@ -1,4 +1,5 @@
 import pandas as pd
+
 data = {
     "Name": ["Amit", "Rahul", "Sneha", "Priya", "Arjun",
              "Neha", "Vikash", "Pooja", "Karan", "Anjali",
@@ -18,27 +19,17 @@ data = {
 }
 
 df = pd.DataFrame(data)
-print("\noriginal dataset")
+
+print("\nOriginal Dataset")
 print(df)
 
-# salary ke basis pe descending sorts
-sorted_values = df.sort_value(by="Salary", ascending=False)
+# Salary ke basis pe descending sort
+sorted_values = df.sort_values(by="Salary", ascending=False)
 
 print("\nSalary Descending Order:\n")
 print(sorted_values)
 
-# Performance_Score ascending order me sort
-sorted_df = df.sort_values(by="Performance", ascending=True)
-
-print("\nPerformance Score Ascending Order:\n")
-print(sorted_df)
-
-# top 3 highest salary
-top3 = df.nlargest(3,"Salary")
-print("\ntop 3 highest salary")
+# Top 3 highest salary
+top3 = df.nlargest(3, "Salary")
+print("\nTop 3 Highest Salary")
 print(top3)
-
-# lowest performance score employe
-lowest_per = df.nsmallest(1,"Performance")
-print("Lowest Performance Score Employee:\n")
-print(lowest_per)
