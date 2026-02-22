@@ -37,3 +37,8 @@ print(sorted_df)
 top3 = df.nlargest(3,"Salary")
 print("\ntop 3 highest salary")
 print(top3)
+
+# lowest performance score employe
+lowest_per = df.nsmallest(1,"Performance")
+print("Lowest Performance Score Employee:\n")
+print(lowest_per)
