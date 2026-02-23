@@ -35,3 +35,6 @@ choices = ["Excellent", "Good"]
 
 df["Result"] = np.select(conditions, choices, default="Average")
 print(df)
+
+average_salary = df["Salary"].mean()
+print("Average Salary:", average_salary)
