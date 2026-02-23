@@ -23,3 +23,6 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
+df["Bonus"] = df["Salary"] * 0.10
+print(df)
