@@ -26,3 +26,12 @@ print(df)
 
 df["Bonus"] = df["Salary"] * 0.10
 print(df)
+
+conditions = [
+    df["Performance_Score"] >= 8,
+    df["Performance_Score"] == 7
+]
+choices = ["Excellent", "Good"]
+
+df["Result"] = np.select(conditions, choices, default="Average")
+print(df)
