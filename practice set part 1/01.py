@@ -38,3 +38,6 @@ print(df)
 
 average_salary = df["Salary"].mean()
 print("Average Salary:", average_salary)
+
+max_score = df["Performance_Score"].max()
+print("Maximum Performance Score:", max_score)
