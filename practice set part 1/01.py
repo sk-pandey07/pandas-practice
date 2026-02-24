@@ -54,3 +54,6 @@ df.to_csv("employee_analysis_output.csv", index=False)
 print("\nCSV file exported successfully!")
 
 dept_avg_salary = df.groupby("Department")["Salary"].mean()
+
+dept_avg_performance = df.groupby("Department")["Performance_Score"].mean()
+print(dept_avg_performance)
