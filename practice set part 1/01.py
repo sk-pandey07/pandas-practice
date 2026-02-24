@@ -57,3 +57,6 @@ dept_avg_salary = df.groupby("Department")["Salary"].mean()
 
 dept_avg_performance = df.groupby("Department")["Performance_Score"].mean()
 print(dept_avg_performance)
+
+dept_avg_salary = df.groupby("Department")["Salary"].mean()
+print(dept_avg_salary.sort_values(ascending=False))
