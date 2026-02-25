@@ -18,3 +18,5 @@ print(total_orders)
 print(df.columns)
 
 print(df.shape)
+
+print(df.describe())
