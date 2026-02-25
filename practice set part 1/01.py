@@ -14,3 +14,5 @@ print(df)
 
 total_orders = len(df)
 print(total_orders)
+
+print(df.columns)
