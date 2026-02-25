@@ -11,3 +11,6 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
+total_orders = len(df)
+print(total_orders)
