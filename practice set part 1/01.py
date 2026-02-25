@@ -20,3 +20,5 @@ print(df.columns)
 print(df.shape)
 
 print(df.describe())
+
+print(df["City"].unique())
