@@ -16,3 +16,6 @@ print(df[["Name"]])
 
 print("\nage > 20")
 print(df[df["Age"] > 20])
+
+print("\nUse .loc to get row 1 specifically")
+print(df.loc[1])
