@@ -19,3 +19,6 @@ print(df[df["Age"] > 20])
 
 print("\nUse .loc to get row 1 specifically")
 print(df.loc[1])
+
+print(df.shape)
+print(df[df["Score"] >= 80]["Score"].count())
