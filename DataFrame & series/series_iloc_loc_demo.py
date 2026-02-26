@@ -5,3 +5,9 @@ print(s)
 
 # print second element
 print(s[1])
+
+# print index using .iloc , or , .loc
+print(s.iloc[1])
+
+# print index using .loc
+print(s.loc['b'])
