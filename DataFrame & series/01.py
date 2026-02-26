@@ -13,3 +13,6 @@ print(df.head(2))
 # print(df["Name"])
 
 print(df[["Name"]])
+
+print("\nage > 20")
+print(df[df["Age"] > 20])
