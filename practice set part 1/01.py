@@ -41,3 +41,7 @@ print(df["Name"])
 
 print("\nUse .loc to get row 1 specifically")
 print(df.loc[1])
+
+print("\nFilter rows where salary ≥ 50000")
+print(df[df["Salary"] >= 50000])
+
