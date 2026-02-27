@@ -39,3 +39,5 @@ print(df[df["Age"] >= 25])
 print("\nprint the name column only")
 print(df["Name"])
 
+print("\nUse .loc to get row 1 specifically")
+print(df.loc[1])
