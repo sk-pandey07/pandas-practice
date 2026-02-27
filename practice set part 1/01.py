@@ -32,6 +32,10 @@ print(df)
 print("\nprint only 5 ROWS")
 print(df.head(5))
 
+print("\nPrint rows where Age > 25")
+print(df[df["Age"] >= 25])
+
+
 print("\nprint the name column only")
 print(df["Name"])
 
