@@ -45,3 +45,5 @@ print(df.loc[1])
 print("\nFilter rows where salary ≥ 50000")
 print(df[df["Salary"] >= 50000])
 
+print("\nCount how many performance > 8 using .shape or .count()")
+print(df[df["Performance_Score"] > 8]["Performance_Score"].count())
