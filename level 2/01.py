@@ -23,3 +23,7 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
+
+# add column bonus
+df["Bonus_marks"] = df["Marks"] + 5
+print(df)
