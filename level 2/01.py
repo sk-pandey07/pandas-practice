@@ -25,5 +25,5 @@ df = pd.DataFrame(data)
 print(df)
 
 # add column bonus
-df["Bonus_marks"] = df["Marks"] + 5
+df["Bonus"] = 5
 print(df)
