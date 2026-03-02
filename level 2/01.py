@@ -38,3 +38,8 @@ print(df)
 
 df["Age"] = df["Age"].apply(lambda x:"Adult" if x >= 21 else "Teen")
 print(df)
+
+df["City"] = ["Delhi", "Mumbai", "Delhi", "Kolkata", "Delhi",
+              "Mumbai", "Chennai", "Delhi", "Kolkata", "Delhi",
+              "Mumbai", "Chennai", "Delhi", "Kolkata", "Delhi"]
+print(df)
