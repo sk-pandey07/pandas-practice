@@ -27,3 +27,7 @@ print(df)
 # add column bonus
 df["Bonus"] = 5
 print(df)
+
+# add new column total marks
+df["Total_marks"] = df["Marks"] + df["Bonus"]
+print(df)
