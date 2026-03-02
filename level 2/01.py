@@ -31,3 +31,7 @@ print(df)
 # add new column total marks
 df["Total_marks"] = df["Marks"] + df["Bonus"]
 print(df)
+
+# add pass column
+df["Pass"] = df["Marks"] >= 40
+print(df)
