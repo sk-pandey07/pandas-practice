@@ -35,3 +35,6 @@ print(df)
 # add pass column
 df["Pass"] = df["Marks"] >= 40
 print(df)
+
+df["Age"] = df["Age"].apply(lambda x:"Adult" if x >= 21 else "Teen")
+print(df)
